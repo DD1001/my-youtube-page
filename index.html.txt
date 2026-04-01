@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>我的私人频道</title>
+    <style>
+        body { background: #0f0f0f; color: white; font-family: Arial; margin: 0; padding: 20px; }
+        .header { font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #ff0000; }
+        .main-video { width: 100%; max-width: 900px; aspect-ratio: 16/9; background: #000; margin-bottom: 20px; }
+        .video-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; }
+        .video-card { cursor: pointer; background: #222; padding: 10px; border-radius: 8px; }
+        .video-card img { width: 100%; border-radius: 5px; }
+        .video-card p { font-size: 14px; margin-top: 8px; }
+    </style>
+</head>
+<body>
+    <div class="header">📺 我的私人视频频道</div>
+    
+    <!-- 主播放器 -->
+    <div class="main-video">
+        <!-- 这里替换成你的视频地址 -->
+        <iframe width="100%" height="100%" src="https://youtube.com" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <h3>更多视频</h3>
+    <div class="video-grid">
+        <!-- 视频封面卡片 -->
+        <div class="video-card">
+            <img src="https://placeholder.com" alt="封面">
+            <p>视频标题 01</p>
+        </div>
+        <div class="video-card">
+            <img src="https://placeholder.com" alt="封面">
+            <p>视频标题 02</p>
+        </div>
+    </div>
+</body>
+</html>
