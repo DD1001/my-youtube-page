@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>我的私人频道</title>
     <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
+    <script type="module">
+        import { injectSpeedInsights } from 'https://cdn.jsdelivr.net/npm/@vercel/speed-insights@1/dist/index.mjs';
+        injectSpeedInsights();
+    </script>
     <style>
         body { background: #0f0f0f; color: white; font-family: Arial; margin: 0; padding: 20px; }
         .header { font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #ff0000; }
