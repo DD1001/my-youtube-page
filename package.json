@@ -1,0 +1,19 @@
+{
+  "name": "my-youtube-page",
+  "version": "1.0.0",
+  "description": "A private YouTube-style video channel page",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static HTML project - no build required'",
+    "lint": "echo 'No linter configured for static HTML'"
+  },
+  "keywords": ["youtube", "video", "channel"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  },
+  "devDependencies": {
+    "serve": "^14.2.3"
+  }
+}
